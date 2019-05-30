@@ -96,5 +96,8 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Install stuff from Brewfile
+brew bundle init/Brewfile
+
 # Remove outdated versions from the cellar.
 brew cleanup
