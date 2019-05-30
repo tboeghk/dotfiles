@@ -83,7 +83,7 @@ brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
+brew install imagemagick
 #brew install lua
 #brew install lynx
 #brew install p7zip
@@ -97,7 +97,7 @@ brew install tree
 #brew install zopfli
 
 # Install stuff from Brewfile
-brew bundle init/Brewfile
+brew bundle --global
 
 # Remove outdated versions from the cellar.
 brew cleanup
