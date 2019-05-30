@@ -1,45 +1,44 @@
 # Mac applications
-cask install google-chrome
-cask install 1password
-cask install dropbox
-cask install virtualbox
-cask install virtualbox-extension-pack
-cask install adobe-creative-cloud
-cask install firefox
-cask install kitematic
-cask install slack
-cask install visualvm
-cask install aerial
-cask install macdown
-cask install sts
-cask install apache-directory-studio
-cask install google-drive
-cask install minikube
-cask install tower
-cask install google-nik-collection
-cask install tunnelblick
-cask install docker
-cask install java
-cask install java8
+cask "google-chrome"
+cask "1password"
+cask "dropbox"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "adobe-creative-cloud"
+cask "firefox"
+cask "kitematic"
+cask "slack"
+cask "visualvm"
+cask "aerial"
+cask "macdown"
+cask "sts"
+cask "apache-directory-studio"
+cask "google-drive"
+cask "minikube"
+cask "tower"
+cask "google-nik-collection"
+cask "tunnelblick"
+cask "docker"
+cask "java"
+cask "java8"
 
 # Homebrew taps
-tap derailed/k9s
+tap "derailed/k9s"
 
 # Homebrew packages
-install k9s
-install mysql
-intall ansible
-install bash-completion
-install dos2unix
-install git
-install gettext
-install joe
-install jq
-install kubernetes-cli
-install kubernetes-helm
-install kubeval
-install openssl
-install wget
-install yq
-install youtube-dl
-
+brew "k9s"
+brew "mysql"
+brew "ansible"
+brew "bash-completion"
+brew "dos2unix"
+brew "git"
+brew "gettext"
+brew "joe"
+brew "jq"
+brew "kubernetes-cli"
+brew "kubernetes-helm"
+brew "kubeval"
+brew "openssl"
+brew "wget"
+brew "yq"
+brew "youtube-dl"
