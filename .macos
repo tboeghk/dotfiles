@@ -184,6 +184,19 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bo
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
+sudo systemsetup -setusingnetworktime on
+
+# set timezone using the current location
+defaults write /Library/Preferences/com.apple.timezone.auto Active -bool true
+
+# enable location services
+defaults write /var/db/locationd/Library/Preferences/ByHost/com.apple.locationd LocationServicesEnabled -int 1
+
+# show battery in percent
+defaults write com.apple.menuextra.battery ShowPercent YES
+
+# show date in menu bar
+defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM H:mm"
 
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
