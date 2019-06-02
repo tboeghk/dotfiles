@@ -21,6 +21,8 @@ cask "tunnelblick"
 cask "docker"
 cask "whatsapp"
 cask "microsoft-teams"
+cask "postman"
+cask "insomnia"
 
 tap "homebrew/cask-versions"
 cask "adoptopenjdk8"
