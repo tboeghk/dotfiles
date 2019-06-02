@@ -25,7 +25,7 @@ cask "microsoft-teams"
 tap "homebrew/cask-versions"
 cask "adoptopenjdk8"
 cask "java"
-cask "sourcetree"
+cask "fork"
 
 # kubernetes
 tap "derailed/k9s"
@@ -65,3 +65,8 @@ tap "bramstein/webfonttools"
 brew "sfnt2woff"
 brew "sfnt2woff-zopfli"
 brew "woff2"
+
+# Fonts
+tap "homebrew/cask-fonts"
+cask "font-meslo-for-powerline"
+cask "font-fira-mono-for-powerline"
