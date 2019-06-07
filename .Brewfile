@@ -24,14 +24,19 @@ cask "microsoft-teams"
 cask "postman"
 cask "insomnia"
 
+# Java
 tap "homebrew/cask-versions"
 cask "adoptopenjdk8"
 cask "java"
 cask "fork"
 
+# AWS
+brew "awscli"
+
 # kubernetes
 tap "derailed/k9s"
 brew "k9s"
+brew "docker-machine-driver-hyperkit"
 
 # Homebrew packages
 brew "ack"
