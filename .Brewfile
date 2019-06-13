@@ -21,6 +21,8 @@ cask "tunnelblick"
 cask "docker"
 cask "whatsapp"
 cask "microsoft-teams"
+cask "microsoft-remote-desktop-beta"
+cask "cyberduck"
 cask "postman"
 cask "insomnia"
 
@@ -66,6 +68,7 @@ brew "wget"
 brew "yq"
 brew "youtube-dl"
 brew "vim"
+brew "terraform"
 
 # Install font tools
 tap "bramstein/webfonttools"
