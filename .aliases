@@ -165,3 +165,6 @@ alias docker-kill-all='docker kill $(docker ps -aq); docker rm $(docker ps -aq)'
 
 # Kubernetes local dashboard
 alias kubeproxy='cat ~/.kube/config|grep -A20 "users:" && kubectl proxy'
+
+# Terraformm short form
+alias tf='terraform'

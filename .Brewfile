@@ -68,7 +68,9 @@ brew "wget"
 brew "yq"
 brew "youtube-dl"
 brew "vim"
-brew "terraform"
+brew "terraform@0.11"
+brew "terraform-inventory"
+brew "golang"
 
 # Install font tools
 tap "bramstein/webfonttools"
