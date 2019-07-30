@@ -15,6 +15,7 @@ Thumbs.db
 
 # Keep private things private
 .extra
+.terraformrc
 .aws
 .ssh/*.pem
 .ssh/*id*
