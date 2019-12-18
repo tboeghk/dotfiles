@@ -31,6 +31,7 @@ tap "homebrew/cask-versions"
 cask "adoptopenjdk8"
 cask "java"
 cask "fork"
+brew "maven"
 
 # AWS
 brew "awscli"
