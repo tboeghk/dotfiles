@@ -37,7 +37,7 @@ export GPG_TTY=$(tty);
 export HOMEBREW_NO_ANALYTICS=1
 
 # set current java home
-export JAVA_HOME="$(/usr/libexec/java_home -v 12)"
+export JAVA_HOME="$(/usr/libexec/java_home -v 13)"
 
 # golang
 export GOPATH="${HOME}/.go"
