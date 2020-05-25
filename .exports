@@ -39,6 +39,9 @@ export HOMEBREW_NO_ANALYTICS=1
 # source sdkman bin
 source ~/.sdkman/bin/sdkman-init.sh
 
+# select jdk11 by default
+sdk use java 11.0.7.hs-adpt >/dev/null
+
 # golang
 export GOPATH="${HOME}/.go"
 export GOROOT="$(brew --prefix golang)/libexec"
