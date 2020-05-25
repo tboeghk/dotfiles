@@ -19,4 +19,5 @@ Thumbs.db
 .aws
 .ssh/*.pem
 .ssh/*id*
+.ssh/config_*
 *.ttf
