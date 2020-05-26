@@ -141,11 +141,15 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	tool = vscode
 
 [diff "bin"]
 
 	# Use `hexdump` to diff binary files
 	textconv = hexdump -v -C
+
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 
 [help]
 
@@ -156,6 +160,13 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+
+    # This is to unlock VSCode as your git diff and git merge tool
+    tool = vscode
+
+[mergetool "vscode"]
+
+    cmd = code --wait $MERGED
 
 [push]
 
